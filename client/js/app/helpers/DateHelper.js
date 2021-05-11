@@ -7,10 +7,10 @@ class DateHelper {
   }
   dataParaTexto(data) {
 
-data.getDate() 
+    data.getDate()
 
-+ "/" + (data.getMounth()+1)
-+ "/" + (data.getFullyear()
+      + "/" + (data.getMounth() + 1)
+      + "/" + (data.getFullyear()
   }
   // teste
 
@@ -22,6 +22,6 @@ data.getDate()
   negociacao.data.getFullYear();
 console.log(diaMesAno);
 }
-}
+
 
 
